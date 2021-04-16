@@ -1,38 +1,11 @@
 <body>
-    <div>我开发的编辑器测试</div>
+    <div>编辑器测试</div>
     <div id="div1">
         <p>这是一个富文本编辑器，简单高效！</p>
-        <p>开发一个富文本还挺不容易的哈哈哈</p>
     </div>
 </body>
-<style>
-    .selection::selection {
-        background-color: red;
-        color: white;
-
-        /* color
-background-color
-cursor
-caret-color
-outline and its longhands
-text-decoration and its associated properties
-text-emphasis-color (en-US)
-text-shadow */
-        text-shadow: wheat;
-    }
-</style>
 <script type="text/javascript" src="../../dist/xlmEditor.js"></script>
 
-<script type="text/javascript">
-    // const E = window.wangEditor
-    // const editor = new E('#div1')
-    // 或者 const editor = new E(document.getElementById('div1'))
-    // editor.create()
-</script>
-
 <script>
-    // console.log("window:", window.AAA)
-    // console.log("xlmEditor:", xlmEditor)
     const editor = new xlmEditor("#div1")
-    // console.log("对象名称:", editor.name);
 </script>
