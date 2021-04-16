@@ -1,5 +1,5 @@
-import { addEvent, execCommand, createElement, getElementById } from '../../utils/dom.ts'
-import { restoreSelection, saveSelection } from '../../utils/dom-selection.ts'
+import { addEvent, execCommand, createElement, getElementById } from '../../utils/dom'
+import { restoreSelection, saveSelection } from '../../utils/dom-selection'
 
 export class colorPicker {
     public command: string

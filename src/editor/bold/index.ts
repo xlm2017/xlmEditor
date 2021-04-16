@@ -1,4 +1,4 @@
-import { execCommand } from '../../utils/dom.ts'
+import { execCommand } from '../../utils/dom'
 class Bold {
     public title: string
     public icon: string

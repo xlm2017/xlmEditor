@@ -53,7 +53,8 @@ module.exports = {
         ],
     },
     resolve: {
-        // extensions: ['.ts', '.js', '.json', '.less', '.css'],
+        // 引入文件不用再加上后缀
+        extensions: ['.ts', '.js', '.json', '.less', '.css'],
         alias: {
             // utils: path.join(srcPath, 'utils'),
             // style: path.join(srcPath, 'assets', 'style'),

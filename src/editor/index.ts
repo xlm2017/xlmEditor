@@ -1,6 +1,6 @@
-import Title from './title/index.ts'
-import Bold from './bold/index.ts'
-import Color from './color/index.ts'
+import Title from './title/index'
+import Bold from './bold/index'
+import Color from './color/index'
 import {
     getElementById,
     createElement,
@@ -8,13 +8,13 @@ import {
     addEvent,
     execCommand,
     getStyle,
-} from '../utils/dom.ts'
+} from '../utils/dom'
 import {
     getCurrentRange,
     saveSelection,
     restoreSelection,
     getSelectionHTML,
-} from '../utils/dom-selection.ts'
+} from '../utils/dom-selection'
 class XlmEditor {
     public et: HTMLElement | null = null
     public toolbarTop: HTMLElement | null = null

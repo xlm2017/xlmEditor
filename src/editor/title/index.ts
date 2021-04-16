@@ -1,5 +1,5 @@
-import { execCommand, createElement, getStyle, querySelector, addEvent } from '../../utils/dom.ts'
-import { restoreSelection, saveSelection } from '../../utils/dom-selection.ts'
+import { execCommand, createElement, getStyle, querySelector, addEvent } from '../../utils/dom'
+import { restoreSelection, saveSelection } from '../../utils/dom-selection'
 class Title {
     public parent: HTMLElement
     public title: string

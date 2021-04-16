@@ -1,5 +1,5 @@
-import { execCommand, createElement, getStyle, querySelector, addEvent } from '../../utils/dom.ts'
-import { colorPicker } from './colorPicker.ts'
+import { execCommand, createElement, getStyle, querySelector, addEvent } from '../../utils/dom'
+import { colorPicker } from './colorPicker'
 class Color {
     public title: string
     public icon: string
