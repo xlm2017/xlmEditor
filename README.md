@@ -8,4 +8,4 @@
 
 3. https://github.com/wangeditor-team/wangEditor 参考了这个项目的ts实现, 将步骤二的项目修改手动修改成了webpack构建的ts项目
 
-3.0  完成了 h标题, 加粗, 选颜色 三个功能, 耗时(二周业余时间)
+3.0  完成了 <h标题, 加粗, 选颜色> 三个功能, 耗时(二周业余时间)
