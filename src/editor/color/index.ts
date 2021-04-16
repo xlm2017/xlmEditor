@@ -1,4 +1,4 @@
-import { execCommand, createElement, getStyle, querySelector, addEvent } from '../../utils/dom'
+import { createElement } from '../../utils/dom'
 import { colorPicker } from './colorPicker'
 class Color {
     public title: string
