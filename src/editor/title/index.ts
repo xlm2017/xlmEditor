@@ -1,4 +1,4 @@
-import { execCommand, createElement, getStyle, querySelector, addEvent } from '../../utils/dom'
+import { execCommand, createElement, querySelector, addEvent } from '../../utils/dom'
 import { restoreSelection, saveSelection } from '../../utils/dom-selection'
 class Title {
     public parent: HTMLElement

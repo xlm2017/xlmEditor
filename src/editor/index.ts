@@ -1,14 +1,7 @@
 import Title from './title/index'
 import Bold from './bold/index'
 import Color from './color/index'
-import {
-    getElementById,
-    createElement,
-    querySelectorAll,
-    addEvent,
-    execCommand,
-    getStyle,
-} from '../utils/dom'
+import { getElementById, createElement, querySelectorAll, addEvent, getStyle } from '../utils/dom'
 import {
     getCurrentRange,
     saveSelection,
