@@ -1,6 +1,3 @@
-/**
- * 项目整体
- */
 import Title from './title/index.ts'
 import Bold from './bold/index.ts'
 import Color from './color/index.ts'
